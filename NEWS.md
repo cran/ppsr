@@ -1,3 +1,26 @@
+# ppsr 0.0.5
+
+Fixed the package alias breaking due to `roxygen` dependency
+
+# ppsr 0.0.4
+
+Removed parallel package from imports to fix bug on MacOS #32
+
+
+# ppsr 0.0.3
+
+No major changes.
+
+
+# ppsr 0.0.2.1
+
+## Major changes:
+* Update to ggplot2 theme, removed irrelevant panel grid lines
+
+## Bug fixes:
+* #19 Parallelization should not now work. Library call to package instead of exporting functions by name.
+
+
 # ppsr 0.0.2
 
 ## Major changes:
